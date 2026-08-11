@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "generated_at_local": "2026-08-12T03:25:00+09:00",
+  "project": "보찬코 올카 운영본부",
+  "repository_role": "public_manager_control_plane",
+  "work_role": "long_running_manager_workspace",
+  "purpose": "Manager judges; ORCA executes; SOURCE_MAP preserves provenance; freeze V1 by evidence gates rather than endless patching.",
+  "status_semantics": ["ACTIVE", "CANDIDATE", "UNVERIFIED", "FROZEN", "CLOSED", "BLOCKED"],
+  "current_verdict": "SOURCE_MAP_EXTERNAL_REVIEW_PENDING_AND_RUNTIME_R1_READY",
+  "global_primary_next": "NEXT-001 SOURCE_MAP v1 Independent Challenger Review",
+  "tracks": {
+    "source_map": {
+      "status": "CANDIDATE",
+      "internal_validation": "PASS",
+      "external_independent_review": "NOT_RUN",
+      "review_packet": "R1_SELF_VERIFIABLE_READY",
+      "freeze": "NOT_DONE",
+      "stop_line": "NO_SOURCE_MAP_PATCH_OR_FREEZE_BEFORE_EXTERNAL_RESULT"
+    },
+    "runtime": {
+      "toolchain_ci": "PASS",
+      "node": "24.19.0",
+      "pnpm": "10.24.0",
+      "live_orca_ui_terminal_visible": true,
+      "r1_stable_pane_gate": "READY_NOT_EXECUTED",
+      "r1_probe_windows": "orca orchestration run-current --json",
+      "r1_pass_rule": "normal JSON return; run:null is valid PASS",
+      "r2_bounded_smoke": "NOT_RUN",
+      "freeze": "NOT_DONE"
+    },
+    "factory_b": {
+      "qualification_001": "EVALUATED_ACCEPT_CLOSED",
+      "qualification_002": "DO_NOT_CREATE_WITHOUT_MATERIAL_TRIGGER"
+    },
+    "model_registry": {
+      "candidate_static": "PASS",
+      "runtime_activation": "UNVERIFIED"
+    },
+    "manager_runtime_integration": {
+      "candidate_static": "PASS",
+      "runtime_apply": "UNVERIFIED"
+    },
+    "antigravity_bridge": {
+      "candidate_ci": "PASS",
+      "installed_user_runtime": "UNVERIFIED",
+      "real_account_runtime": "UNVERIFIED"
+    }
+  },
+  "github_dependencies": {
+    "implementation_repo": "wkdeogks115-blip/orca-ai-token-efficiency-multiai-cowork-v3",
+    "implementation_repo_visibility": "private_at_last_verified_state",
+    "pr_1": {
+      "role": "Antigravity Candidate",
+      "state": "OPEN_DRAFT_UNMERGED",
+      "validated_head": "97d924b3d1efe2b5479f45b3d12b589d0e6d9e36",
+      "validated_run": 31459588048
+    },
+    "pr_2": {
+      "role": "Runtime Toolchain Candidate",
+      "state": "OPEN_DRAFT_UNMERGED",
+      "validated_head": "36dda350bab4c09d386597a138c0af1f9c08f30d",
+      "validated_run": 31470202452
+    }
+  },
+  "truth_boundaries": [
+    "CI_PASS_DOES_NOT_EQUAL_INSTALLED_USER_RUNTIME_PASS",
+    "PACKET_READY_DOES_NOT_EQUAL_EXTERNAL_REVIEW_PASS",
+    "CANDIDATE_DOES_NOT_EQUAL_FROZEN",
+    "WORK_CONTEXT_DOES_NOT_REPLACE_DURABLE_ARTIFACT_EVIDENCE"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "checked_at_local": "2026-08-12T03:25:00+09:00",
+  "implementation_repo": "wkdeogks115-blip/orca-ai-token-efficiency-multiai-cowork-v3",
+  "pr_1": {
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "head": "97d924b3d1efe2b5479f45b3d12b589d0e6d9e36",
+    "validated_run": 31459588048
+  },
+  "pr_2": {
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "head": "36dda350bab4c09d386597a138c0af1f9c08f30d",
+    "validated_run": 31470202452
+  }
+}
