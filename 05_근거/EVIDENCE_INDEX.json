@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "policy": "pointer_only_public_safe",
+  "items": [
+    {
+      "id": "E-RUNTIME-TOOLCHAIN-CI",
+      "claim": "Portable Node 24.19.0 + pnpm 10.24.0 setup validated on Linux and Windows CI",
+      "location": "implementation repo PR #2 / workflow run 31470202452",
+      "status": "PASS",
+      "boundary": "does not prove installed-user runtime"
+    },
+    {
+      "id": "E-ANTIGRAVITY-CANDIDATE",
+      "claim": "Antigravity bridge candidate validation lanes passed",
+      "location": "implementation repo PR #1 / workflow run 31459588048",
+      "status": "PASS",
+      "boundary": "does not prove real account or installed-user runtime"
+    },
+    {
+      "id": "E-FACTORY-B-001",
+      "claim": "Scoped external-AI handoff qualification accepted after Manager replay",
+      "location": "private checkpoint artifacts / latest Work bootstrap",
+      "status": "ACCEPT_CLOSED"
+    },
+    {
+      "id": "E-SOURCE-MAP-R1-PACKET",
+      "claim": "External reviewer packet is self-verifiable and dispatch-ready",
+      "location": "private checkpoint artifact",
+      "status": "READY",
+      "boundary": "packet ready != external review pass"
+    },
+    {
+      "id": "E-USER-ORCA-UI",
+      "claim": "A live ORCA UI terminal was visually observed in user environment",
+      "location": "private UI evidence checkpoint",
+      "status": "OBSERVED",
+      "boundary": "stable pane remains unverified"
+    }
+  ]
+}
